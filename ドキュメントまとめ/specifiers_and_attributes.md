@@ -1,22 +1,8 @@
-# Verse API リファレンスマニュアル トップ
-
-ここは、API リファレンスのトップページです。
-
-## 対象バージョン
-
-28.00
-
-## Module
-
-- [Verse.org](./[M]Verse.org/main.md)
-- [Fortnite.com](./[M]Fortnite.com/main.md)
-- [UnrealEngine.com](./[M]UnrealEngine.com/main.md)
-
-## 属性と指定子
+# 属性と指定子
 
 - [参照](https://dev.epicgames.com/documentation/ja-jp/uefn/specifiers-and-attributes-in-verse)
 
-### エフェクト指定子
+## エフェクト指定子
 
 関数の公開が許可される動作のカテゴリを、指定子を使って付与できます。
 
@@ -26,7 +12,7 @@
 
 特定のエフェクトを持つ関数を呼び出すには、呼び出し元もそのエフェクトを保持している必要があります。
 
-#### エフェクトの種類
+### エフェクトの種類
 
 - 排他的
   - 関数または `class` キーワードに付与可能
@@ -35,7 +21,7 @@
   - 関数または `class` キーワードに付与可能
   - すべてまたは一部を追加可能
 
-#### エフェクト指定子の書式
+### エフェクト指定子の書式
 
 ```Verse
 # 関数定義の場合
@@ -45,9 +31,9 @@ name()<指定子> : type = codeblock
 class_name := class<指定子>():
 ```
 
-#### 排他的エフェクト指定子
+### 排他的エフェクト指定子
 
-#### transacts
+### transacts
 
 このエフェクトは、関数によって行われるすべてのアクションがロールバック可能であることを示しています。
 
@@ -63,7 +49,7 @@ name()<transacts> : type = codeblock
 class_name := class<transacts>():
 ```
 
-#### varies
+### varies
 
 このエフェクトは、関数への同じ入力が常に同じ出力を生み出さない可能性を示しています。
 
@@ -77,7 +63,7 @@ name()<varies> : type = codeblock
 class_name := class<varies>():
 ```
 
-#### computes
+### computes
 
 このエフェクトは、同じ引数が指定されたときは同じ結果を返すことを示しています。
 
@@ -93,7 +79,7 @@ name()<computes> : type = codeblock
 class_name := class<computes>():
 ```
 
-#### converges
+### converges
 
 このエフェクトは、関数を実行したことによる副次的なエフェクトが無いことを保証します。
 
@@ -111,9 +97,9 @@ name()<converges> : type = codeblock
 class_name := class<converges>():
 ```
 
-#### 加法的エフェクト指定子
+### 加法的エフェクト指定子
 
-#### decides
+### decides
 
 その関数は失敗する可能性があり、この関数の呼び出しは失敗する可能性がある式であることを示します。
 
@@ -127,7 +113,7 @@ name()<transacts><decides> : type = codeblock
 class_name := class<transacts><decides>():
 ```
 
-#### suspends
+### suspends
 
 関数が非同期であることを指定します。
 
@@ -139,7 +125,7 @@ name()<suspends> : type = codeblock
 class_name := class<suspends>():
 ```
 
-### アクセス指定子
+## アクセス指定子
 
 メンバーと何でどのようにやり取りできるのかを定義します。
 
@@ -147,7 +133,7 @@ class_name := class<suspends>():
 
 省略時は `internal` が指定されているものとします。
 
-#### アクセス指定子の書式
+### アクセス指定子の書式
 
 ```Verse
 # メンバー定義の場合
@@ -157,7 +143,7 @@ name<指定子> : type = value
 var<指定子> name : type = value
 ```
 
-#### public(アクセス指定子)
+### public(アクセス指定子)
 
 その属性は、どこからでもアクセス可能なことを示しています。
 
@@ -171,7 +157,7 @@ name<public> : type = value
 var<public> name : type = value
 ```
 
-#### protected
+### protected
 
 その属性は、現在のクラスとサブタイプからのみ、アクセス可能なことを示しています。
 
@@ -185,7 +171,7 @@ name<protected> : type = value
 var<protected> name : type = value
 ```
 
-#### private
+### private
 
 その属性は、現在のスコープ(モジュール・クラス・構造体など)内でのみアクセス可能なことを示しています。
 
@@ -199,7 +185,7 @@ name<private> : type = value
 var<private> name : type = value
 ```
 
-#### internal(アクセス指定子)
+### internal(アクセス指定子)
 
 その属性は、現在のスコープのすぐ外側のモジュールでのみアクセス可能なことを示しています。
 
@@ -213,11 +199,11 @@ name<internal> : type = value
 var<internal> name : type = value
 ```
 
-### クラス指定子
+## クラス指定子
 
 クラスまたはそのメンバーの特性を指定子ます(サブクラスを作れるか、など)。
 
-#### クラス指定子の書式
+### クラス指定子の書式
 
 ```Verse
 class_name := class<指定子>():
@@ -227,7 +213,7 @@ class_name := class<指定子>():
     MethodName()<指定子>: type = {}
 ```
 
-#### abstract
+### abstract
 
 これが付与されたクラスは、直接インスタンスの作成ができません。
 
@@ -253,7 +239,7 @@ Value2 := main_class_2{}
 
 (※)クラスメソッドにも `<abstract>` の指定ができるとあるが、どのように使うのだろう？？？
 
-#### concrete
+### concrete
 
 これが付与されたときは、`<abstract>` とは逆に、全てのフィールドはすべてデフォルト値を持っています。
 
@@ -275,7 +261,7 @@ Value := concrete_class{Id := 10, Prop1 := "c1"} # 値を渡してのインス�
 
 抽象クラスから具象クラスへ継承するとき、それぞれは同じモジュールスコープに存在しなければいけません。
 
-#### unique
+### unique
 
 これが付与されたときは、各インスタンスが一意になることを保証します。
 
@@ -292,7 +278,7 @@ Value1 <> Value2 # true
 これが付与されたときだけ、比較演算子を使ってインスタンスの比較ができるようになります。
 アーキタイプに同じ値を指定子たとしても、別々に生成されたときは違うインスタンスとして識別できます。
 
-#### final
+### final
 
 これはクラス・フィールド・メソッドに付与できますが、それぞれ効果が変わります。
 
@@ -313,7 +299,7 @@ class_name := class:
     Method1()<final>: int = {}
 ```
 
-#### public(クラス指定子)
+### public(クラス指定子)
 
 これが付与されると、モジュールの外でもコンストラクタを呼び出すことができます。
 
@@ -326,7 +312,7 @@ MakeClassName(): void =
     MyInstance := module_name.class_name{}
 ```
 
-#### internal(クラス指定子)
+### internal(クラス指定子)
 
 これが付与されると、現在のすぐ外側のモジュールでのみコンストラクタを呼び出すことができます。
 
@@ -342,9 +328,9 @@ MakeClassName(): void =
     MyInstance := module_name.class_name{} # エラーになる
 ```
 
-### 実装指定子
+## 実装指定子
 
-#### native
+### native
 
 これが付与されているときは、 C++ で実装されていることを示しています。
 
@@ -365,7 +351,7 @@ Method1<native>(): void = external {}
 enum_name := enum<native>():
 ```
 
-#### native_callable
+### native_callable
 
 これが付与されているときは、この関数が C++ で実装されており、他の C++ コードから呼び出される可能性があることを示しています。
 
@@ -378,7 +364,7 @@ enum_name := enum<native>():
 Method1<native_callable>(): void = external {}
 ```
 
-### 属性
+## 属性
 
 Verse 言語以外で使用される動作を指定子ます。
 
@@ -386,7 +372,7 @@ Verse 言語以外で使用される動作を指定子ます。
 
 属性は、先頭に `@` を追加します。
 
-#### editable
+### editable
 
 UEFN から直接変更できる公開されたプロパティであることを示します。
 値を変更するために、Verse のコードを修正する必要がありません。
