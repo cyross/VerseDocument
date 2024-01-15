@@ -13,9 +13,10 @@ using { /Verse.org/Colors/NamedColors }
 
 ## 説明
 
-(TBD)
+この名前を指定子たときの色は、 <code style="color: LightSlateGrey">■</code> です
+
 - 型
-  - `listenable(payload)`
+  - `color`
 
 ## メンバー
 

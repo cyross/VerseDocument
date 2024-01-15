@@ -1,4 +1,4 @@
-# [[Data]]/Verse.org/Colors/NamedColors/Charteuse
+# [[Data]]/Verse.org/Colors/NamedColors/BlanchedAlmond
 
 - [一つ上位へ移動](../main.md)
 - [API リファレンスのトップに移動](../../../../main.md)
@@ -13,9 +13,10 @@ using { /Verse.org/Colors/NamedColors }
 
 ## 説明
 
-(TBD)
+この名前を指定子たときの色は、 <code style="color: BlanchedAlmond">■</code> です
+
 - 型
-  - `listenable(payload)`
+  - `color`
 
 ## メンバー
 
