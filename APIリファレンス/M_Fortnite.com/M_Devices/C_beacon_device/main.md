@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to show an in world visual effect and/or a HUD marker at the desired location
+Used to show an in world visual effect and/or a HUD marker at the desired location
 
 ### 基底クラス
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent changes teams. Sends the agent whose team changed
+Signaled when an agent changes teams. Sends the agent whose team changed
 
 - 型
 

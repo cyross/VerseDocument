@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent exits the area of effect for this device. Sends the exiting agent
+Signaled when an agent exits the area of effect for this device. Sends the exiting agent
 
 - 型
 

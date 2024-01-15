@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to configure a single interactive mannequin, that can visualize characters, clothing, and perform emotes
+Used to configure a single interactive mannequin, that can visualize characters, clothing, and perform emotes
 
 ### 基底クラス
 

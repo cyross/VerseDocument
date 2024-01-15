@@ -168,13 +168,13 @@ private
     File.open(desc_file_path, "r"){|f|
       data = f.readlines(chomp: true)
 
-      if data.length == 0 || data[0] == "# (TBD)"
+      if data.length == 0 || (data.length < 3 && data[0] == "# (TBD)")
         return "(説明無し)\n\n"
       end
 
       return data.map{|line|
         if line.length > 2 && line[0..1] == "# "
-          line.slice(1, line.length - 1)
+          line.slice(2, line.length - 2)
         elsif line.length > 2 && line[0..1] == "##"
           "#" + line
         else

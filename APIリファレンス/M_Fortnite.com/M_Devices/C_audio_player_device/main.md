@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to configure and play audio from the device location or from registered agents
+Used to configure and play audio from the device location or from registered agents
 
 ### 基底クラス
 

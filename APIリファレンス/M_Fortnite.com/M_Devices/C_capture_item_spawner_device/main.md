@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Spawns and tracks a single item as a game objective (e.g. flag)
+Spawns and tracks a single item as a game objective (e.g. flag)
 
 ### 基底クラス
 

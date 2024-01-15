@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- Enumerated presets for policies describing a desired draw duration
+Enumerated presets for policies describing a desired draw duration
 
 - `SingleFrame`
 

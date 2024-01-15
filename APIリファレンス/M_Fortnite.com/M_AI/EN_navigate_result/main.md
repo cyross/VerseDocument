@@ -16,7 +16,7 @@ using { /Fortnite.com/AI }
 
 ## 説明
 
- ナビゲーション結果を示します
+ナビゲーション結果を示します
 
 - `Reached`
 

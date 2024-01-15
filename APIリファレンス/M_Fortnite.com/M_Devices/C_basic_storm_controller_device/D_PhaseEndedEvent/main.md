@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when storm resizing ends. Use this with the On Finish Behavior option for better controls
+Signaled when storm resizing ends. Use this with the On Finish Behavior option for better controls
 
 - 型
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to track agent events used to generate analytics
+Used to track agent events used to generate analytics
 
 ### 基底クラス
 

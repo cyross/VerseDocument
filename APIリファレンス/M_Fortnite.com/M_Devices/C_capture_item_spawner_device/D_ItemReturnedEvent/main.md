@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when spawned item is returned. Sends the agent that returned the item
+Signaled when spawned item is returned. Sends the agent that returned the item
 
 - 型
 

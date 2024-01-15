@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to place a crash pad that can bounce players and protect them from fall damage
+Used to place a crash pad that can bounce players and protect them from fall damage
 
 ### 基底クラス
 

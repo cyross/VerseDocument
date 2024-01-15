@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when a guard cannot reach the next `ai_patrol_path_device`
+Signaled when a guard cannot reach the next `ai_patrol_path_device`
 
 - 型
 

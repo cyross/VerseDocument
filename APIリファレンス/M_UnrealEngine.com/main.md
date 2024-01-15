@@ -16,7 +16,7 @@ using { /UnrealEngine.com }
 
 ## 説明
 
- (本文なし)
+(本文なし)
 
 ## メンバー
 

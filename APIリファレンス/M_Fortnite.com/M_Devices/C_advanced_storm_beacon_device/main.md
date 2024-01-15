@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used in conjunction with `advanced_storm_controller_device` to customize individual storm phases
+Used in conjunction with `advanced_storm_controller_device` to customize individual storm phases
 
 ### 基底クラス
 

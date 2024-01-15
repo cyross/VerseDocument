@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices/CreativeAnimation }
 
 ## 説明
 
- Animation play modes
+Animation play modes
 
 - See `creative_prop.GetAnimationController` for information on acquiring an instance of an animation_controller for a given `creative_prop`.
 

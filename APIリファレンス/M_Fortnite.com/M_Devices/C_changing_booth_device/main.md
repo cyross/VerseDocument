@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Allows players to change their outfit in game!-
+Allows players to change their outfit in game!-
 
 ### 基底クラス
 

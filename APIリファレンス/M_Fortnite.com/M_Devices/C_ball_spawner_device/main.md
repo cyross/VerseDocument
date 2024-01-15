@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to spawn various types of balls. Can be used to control HUD elements related to the spawned balls
+Used to spawn various types of balls. Can be used to control HUD elements related to the spawned balls
 
 ### 基底クラス
 

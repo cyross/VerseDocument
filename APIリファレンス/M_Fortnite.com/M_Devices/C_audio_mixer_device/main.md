@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to manage sound buses via control bus mixes set on the Audio Mixer Device
+Used to manage sound buses via control bus mixes set on the Audio Mixer Device
 
 ### 基底クラス
 

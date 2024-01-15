@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Base class for creative devices and props
+Base class for creative devices and props
 
 ### 実装インタフェース
 

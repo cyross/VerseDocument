@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device is scored. Sends the agent that scored this device
+Signaled when this device is scored. Sends the agent that scored this device
 
 - 型
 

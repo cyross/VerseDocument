@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent selects a class. Sends the agent that selected a class
+Signaled when an agent selects a class. Sends the agent that selected a class
 
 - 型
 

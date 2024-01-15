@@ -16,7 +16,15 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
-(説明無し)
+(TBD)
+
+### 基底クラス
+
+- `(基底クラス名)`
+
+### 実装インタフェース
+
+- `(インタフェース名)`
 
 ## メンバー
 

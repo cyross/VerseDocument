@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent interacts with this device. Sends the agent that interacted with this device
+Signaled when an agent interacts with this device. Sends the agent that interacted with this device
 
 - 型
 

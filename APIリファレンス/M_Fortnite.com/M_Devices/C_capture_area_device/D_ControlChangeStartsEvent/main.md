@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device control change starts. Sends the agent that is triggering this device control change
+Signaled when this device control change starts. Sends the agent that is triggering this device control change
 
 - 型
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Characters }
 
 ## 説明
 
- [TBD]Controls if fort_character can still fall while in stasis
+[TBD]Controls if fort_character can still fall while in stasis
 
 - 型
 

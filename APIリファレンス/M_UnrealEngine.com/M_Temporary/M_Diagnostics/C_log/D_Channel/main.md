@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- Channel class name will be added as a prefix used when printing the message
+Channel class name will be added as a prefix used when printing the message
 
 e.g. `[log_channel]: #Message`
 

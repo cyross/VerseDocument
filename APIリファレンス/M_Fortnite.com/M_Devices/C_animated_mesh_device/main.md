@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to select, spawn, and configure a skeletal mesh to play a specific animation
+Used to select, spawn, and configure a skeletal mesh to play a specific animation
 
 ### 基底クラス
 

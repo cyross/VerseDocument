@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent closes the UI. Sends the agent that closed the UI
+Signaled when an agent closes the UI. Sends the agent that closed the UI
 
 - 型
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Internal asset for representing creative devices
+Internal asset for representing creative devices
 
 ## メンバー
 

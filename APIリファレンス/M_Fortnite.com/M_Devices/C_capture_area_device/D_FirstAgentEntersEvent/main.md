@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the first agent enters this device area. Sends the agent that entered this device area
+Signaled when the first agent enters this device area. Sends the agent that entered this device area
 
 - 型
 

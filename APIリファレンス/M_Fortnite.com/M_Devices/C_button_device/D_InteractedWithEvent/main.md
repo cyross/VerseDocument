@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent successfully interacts with the button for GetInteractionTime seconds. Sends the agent that interacted with the button
+Signaled when an agent successfully interacts with the button for GetInteractionTime seconds. Sends the agent that interacted with the button
 
 - 型
 

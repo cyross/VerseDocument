@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when a guard starts moving on the patrol path
+Signaled when a guard starts moving on the patrol path
 
 - 型
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when spawned item is captured. Sends the agent that captured the item
+Signaled when spawned item is captured. Sends the agent that captured the item
 
 - 型
 

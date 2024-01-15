@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to display custom text messages on a billboard
+Used to display custom text messages on a billboard
 
 ### 基底クラス
 

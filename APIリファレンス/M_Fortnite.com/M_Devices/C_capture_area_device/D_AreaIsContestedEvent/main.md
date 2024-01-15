@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device is contested. Sends the agent that is contesting this device
+Signaled when this device is contested. Sends the agent that is contesting this device
 
 - 型
 

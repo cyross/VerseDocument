@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used together with `class_designer_device` to control how/when created classes can be accessed by agents
+Used together with `class_designer_device` to control how/when created classes can be accessed by agents
 
 ### 基底クラス
 

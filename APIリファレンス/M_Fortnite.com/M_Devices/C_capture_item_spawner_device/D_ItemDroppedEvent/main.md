@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when spawned item is dropped. Sends the agent that dropped the item
+Signaled when spawned item is dropped. Sends the agent that dropped the item
 
 - 型
 

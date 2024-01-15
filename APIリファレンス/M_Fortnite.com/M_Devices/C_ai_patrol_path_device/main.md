@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to create patrolling behavior for guards spawned with the `guard_spawner_device`
+Used to create patrolling behavior for guards spawned with the `guard_spawner_device`
 
 ### 基底クラス
 

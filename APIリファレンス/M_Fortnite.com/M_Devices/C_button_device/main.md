@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to create a button which can trigger other devices when an agent interacts with it
+Used to create a button which can trigger other devices when an agent interacts with it
 
 ### 基底クラス
 

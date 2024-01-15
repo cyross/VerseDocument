@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to trigger level sequences that allow coordination of cinematic animation, transformation, and audio tracks
+Used to trigger level sequences that allow coordination of cinematic animation, transformation, and audio tracks
 
 ### 基底クラス
 

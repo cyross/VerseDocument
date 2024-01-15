@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device is extinguished by an agent. Sends the extinguishing agent
+Signaled when this device is extinguished by an agent. Sends the extinguishing agent
 
 - 型
 

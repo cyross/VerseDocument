@@ -16,7 +16,7 @@ using { /Verse.org/Colors/NamedColors }
 
 ## 説明
 
- Color presets from CSS Color Module 3 Extended color keywords
+Color presets from CSS Color Module 3 Extended color keywords
 
 ## メンバー
 

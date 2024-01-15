@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Base class for creative_device
+Base class for creative_device
 
 ### 基底クラス
 

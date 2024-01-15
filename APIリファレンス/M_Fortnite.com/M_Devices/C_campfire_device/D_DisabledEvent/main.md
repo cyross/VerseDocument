@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device is disabled
+Signaled when this device is disabled
 
 - 型
 

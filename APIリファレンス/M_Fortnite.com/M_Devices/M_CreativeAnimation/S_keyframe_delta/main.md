@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices/CreativeAnimation }
 
 ## 説明
 
- Instead of specifying the actual keyframe positions, we specify the keyframe deltas
+Instead of specifying the actual keyframe positions, we specify the keyframe deltas
 
 This allows us to treat the initial position of the prop as keyframe 0 and avoid the question of how to get the prop to its initial location
 

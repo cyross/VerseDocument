@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/UI }
 
 ## 説明
 
- Button is a container of a single child widget slot and fires the OnClick event when the button is clicked
+Button is a container of a single child widget slot and fires the OnClick event when the button is clicked
 
 ### 基底クラス
 

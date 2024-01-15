@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to boost agents, vehicles, and other objects upwards into the air
+Used to boost agents, vehicles, and other objects upwards into the air
 
 ### 基底クラス
 

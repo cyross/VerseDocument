@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- log levels available for various log commands
+log levels available for various log commands
 
 - `Debug`
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the heal effect starts for an agent
+Signaled when the heal effect starts for an agent
 
 - 型
 

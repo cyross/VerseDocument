@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices/CreativeAnimation }
 
 ## 説明
 
- `animation_controller.AwaitNextKeyframe` 関数を実行した結果を示します
+`animation_controller.AwaitNextKeyframe` 関数を実行した結果を示します
 
 - `KeyframeReached`
 

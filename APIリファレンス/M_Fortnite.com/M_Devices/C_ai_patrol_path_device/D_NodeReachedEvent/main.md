@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when a guard reaches this device
+Signaled when a guard reaches this device
 
 - 型
 

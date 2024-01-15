@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Triggers when the turret finds a target. Sends the agent that was found
+Triggers when the turret finds a target. Sends the agent that was found
 
 - 型
 

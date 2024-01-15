@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- log class to send messages to the default log
+log class to send messages to the default log
 
 ## メンバー
 

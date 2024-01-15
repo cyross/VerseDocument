@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used together with `class_selector_device` to create class based gameplay. Defines custom class attributes and inventory loadouts
+Used together with `class_selector_device` to create class based gameplay. Defines custom class attributes and inventory loadouts
 
 ### 基底クラス
 

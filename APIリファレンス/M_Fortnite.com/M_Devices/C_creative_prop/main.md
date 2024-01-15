@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- A Fortnite prop that has been placed or spawned in the island
+A Fortnite prop that has been placed or spawned in the island
 
 ### 基底クラス
 

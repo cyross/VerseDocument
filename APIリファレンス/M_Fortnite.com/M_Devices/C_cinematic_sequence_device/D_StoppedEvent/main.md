@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the sequence is stopped
+Signaled when the sequence is stopped
 
 - 型
 

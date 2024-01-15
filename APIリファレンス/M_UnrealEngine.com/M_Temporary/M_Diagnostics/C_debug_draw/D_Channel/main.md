@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- Channel will be used to clear specific debug draw
+Channel will be used to clear specific debug draw
 
 - 型
 

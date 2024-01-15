@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the last agent exits this device area. Sends the agent that exited this device area
+Signaled when the last agent exits this device area. Sends the agent that exited this device area
 
 - 型
 

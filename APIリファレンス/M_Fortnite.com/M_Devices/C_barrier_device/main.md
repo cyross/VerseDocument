@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Creates an impenetrable zone that can block agent movement and weapon fire
+Creates an impenetrable zone that can block agent movement and weapon fire
 
 ### 基底クラス
 

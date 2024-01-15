@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the agent from `EvaluateAgent` fails the requirements specified by this device. Sends the agent originally passed to this device in `EvaluateAgent`
+Signaled when the agent from `EvaluateAgent` fails the requirements specified by this device. Sends the agent originally passed to this device in `EvaluateAgent`
 
 - 型
 

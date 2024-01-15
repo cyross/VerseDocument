@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to create a bouncer that can launch players, vehicles, and more into the air with optional effects
+Used to create a bouncer that can launch players, vehicles, and more into the air with optional effects
 
 ### 基底クラス
 

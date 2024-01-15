@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an item is delivered to this device. Sends the agent that delivered the item to this device
+Signaled when an item is delivered to this device. Sends the agent that delivered the item to this device
 
 - 型
 

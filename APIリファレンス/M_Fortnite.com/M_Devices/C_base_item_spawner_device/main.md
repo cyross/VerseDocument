@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Base class for devices that spawn items
+Base class for devices that spawn items
 
 ### 基底クラス
 

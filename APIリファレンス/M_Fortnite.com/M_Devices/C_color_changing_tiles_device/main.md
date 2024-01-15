@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to create a tile that changes colors when agents interact with it
+Used to create a tile that changes colors when agents interact with it
 
 ### 基底クラス
 

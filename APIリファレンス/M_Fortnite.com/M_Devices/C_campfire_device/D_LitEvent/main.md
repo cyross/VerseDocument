@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when this device is lit by an agent. Sends the lighting agent
+Signaled when this device is lit by an agent. Sends the lighting agent
 
 - 型
 

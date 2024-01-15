@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to allow players to select their Class from a Class Selector UI
+Used to allow players to select their Class from a Class Selector UI
 
 ### 基底クラス
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when the condition in the On Bounced Trigger option is met and someone or something is launched
+Signaled when the condition in the On Bounced Trigger option is met and someone or something is launched
 
 - Sends the agent that bounced. If a vehicle bounced, sends the driver. If a projectile bounced, sends its instigator.
 

@@ -16,7 +16,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ## 説明
 
- debug draw class to draw debug shapes on screen
+debug draw class to draw debug shapes on screen
 
 ## メンバー
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to create a specialized button which can only be activated when agents are carrying specific items
+Used to create a specialized button which can only be activated when agents are carrying specific items
 
 ### 基底クラス
 

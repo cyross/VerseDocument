@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Used to place a campfire in the world that an agent can use to heal themselves
+Used to place a campfire in the world that an agent can use to heal themselves
 
 ### 基底クラス
 

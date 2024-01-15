@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Signaled when an agent changes class. Sends the agent whose class changed
+Signaled when an agent changes class. Sends the agent whose class changed
 
 - 型
 

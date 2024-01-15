@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- Asset used to spawn creative_prop instances
+Asset used to spawn creative_prop instances
 
 ## メンバー
 

@@ -16,7 +16,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
- (説明なし)
+(説明なし)
 
 ### 実装インタフェース
 

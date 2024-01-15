@@ -16,7 +16,11 @@ using { /Fortnite.com/Devices/CreativeAnimation }
 
 ## 説明
 
-(説明無し)
+(TBD)
+
+- 型
+
+  - `listenable(payload)`
 
 ## メンバー
 
