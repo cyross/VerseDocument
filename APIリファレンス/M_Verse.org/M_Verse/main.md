@@ -1,869 +1,195 @@
 # [[Module]]/Verse.org/Verse
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Verse.org/Verse }
+
+using { /Verse.org }
+
 ```
 
-## Class
+## 説明
+
+(説明無し)
+
+## メンバー
+
+### クラス
 
 - [message](./C_message/main.md)
 
-## Interface
-
-- [cancelable](./I_cancelable/main.md)
-- [disposable](./I_disposable/main.md)
-- [invalidatable](./I_invalidatable/main.md)
-
-## Struct
+### 構造体
 
 - [locale](./S_locale/main.md)
 
-## Extension
+### インターフェース
 
-### array.Length
+- [cancelable](./I_cancelable/main.md)
 
-(TBD)
+- [disposable](./I_disposable/main.md)
 
-### (Input:[]t).Find
+- [invalidatable](./I_invalidatable/main.md)
 
-(TBD)
+### エクステンション
 
-### (Input:[]t).Insert
+- [(Input:[]t).Find](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.Find/main.md)
 
-(TBD)
+- [(Input:[]t).Insert](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.Insert/main.md)
 
-### (Val:float).IsAlmostZero
+- [(Input:[]t).Remove](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.Remove/main.md)
 
-(TBD)
+- [(Input:[]t).RemoveAllElements](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.RemoveAllElements/main.md)
 
-### (X:float).IsFinite
+- [(Input:[]t).RemoveElement](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.RemoveElement/main.md)
 
-(TBD)
+- [(Input:[]t).RemoveFirstElement](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.RemoveFirstElement/main.md)
 
-### map.length
+- [(Input:[]t).ReplaceAll](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.ReplaceAll/main.md)
 
-(TBD)
+- [(Input:[]t).ReplaceAllElements](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.ReplaceAllElements/main.md)
 
-### (Input:[]t).Remove
+- [(Input:[]t).ReplaceElement](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.ReplaceElement/main.md)
 
-(TBD)
+- [(Input:[]t).ReplaceFirstElement](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.ReplaceFirstElement/main.md)
 
-### (Input:[]t).RemoveAllElements
+- [(Input:[]t).Slice](./EX_-lpar-Input-colon--lsbr--rsbr-t-rpar-.Slice/main.md)
 
-(TBD)
+- [(Val:float).IsAlmostZero](./EX_-lpar-Val-colon-float-rpar-.IsAlmostZero/main.md)
 
-### (Input:[]t).RemoveElement
+- [(X:float).IsFinite](./EX_-lpar-X-colon-float-rpar-.IsFinite/main.md)
 
-(TBD)
+- [array.Length](./EX_array.Length/main.md)
 
-### (Input:[]t).RemoveFirstElement
+- [map.Length](./EX_map.Length/main.md)
 
-(TBD)
+### 関数
 
-### (Input:[]t).ReplaceAll
+- [Abs](./F_Abs/main.md)
 
-(TBD)
+- [ArSinh](./F_ArSinh/main.md)
 
-### (Input:[]t).ReplaceAllElement
+- [ArTanh](./F_ArTanh/main.md)
 
-(TBD)
+- [ArcCos](./F_ArcCos/main.md)
 
-### (Input:[]t).ReplaceElement
+- [ArcCosh](./F_ArcCosh/main.md)
 
-(TBD)
+- [ArcSin](./F_ArcSin/main.md)
 
-### (Input:[]t).ReplaceFirstElement
+- [ArcTan](./F_ArcTan/main.md)
 
-(TBD)
+- [Ceil](./F_Ceil/main.md)
 
-### (Input:[]t).Slice
+- [Clamp](./F_Clamp/main.md)
 
-(TBD)
+- [Concatenate](./F_Concatenate/main.md)
 
-## Function
+- [ConcatenateMaps](./F_ConcatenateMaps/main.md)
 
-### Abs
+- [Cos](./F_Cos/main.md)
 
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
+- [Cosh](./F_Cosh/main.md)
 
-### ArcCos
+- [Err](./F_Err/main.md)
 
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
+- [Exp](./F_Exp/main.md)
 
-### ArcSin
+- [Floor](./F_Floor/main.md)
 
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### ArcTan
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### ArSinh
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### ArTanh
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Ceil
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Clamp
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Concatenate
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### ConcatenateMaps
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Cos
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Cosh
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Err
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### event
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Exp
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Floor
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Int
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### IsAlmostEqual
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Join
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Lerp
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### listenable
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Ln
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Localize
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Log
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Max
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Min
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Mod
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'()'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'/='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'>'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'>='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'<'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'<='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'<>'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'-'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'-='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'+'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'+='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'?'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'/'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'\*'
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### operator'\*='
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Pow
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### prefix'-'
-
-#### prefix'-' - float
-
-数値の符号を反転させる前置詞
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-#### prefix'-' - int
-
-数値の符号を反転させる前置詞
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Print
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Quotient
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Round
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Sgn
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### subscribable
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Tan
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### Tanh
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- 属性
-  - なし
-- エフェクト
-  - なし
-
-### ToString
-
-引数を文字列(char 型の配列)に変換します。
-
-#### ToString(float)
-
-- 書式
-  - `ToString<native><public>(Val:float):[]char`
-- 引数
-  - `Val`: `float`
-- 戻り値
-  - `[]char`
-- 属性
-  - `<native>`
-  - `<public>`
-- エフェクト
-  - なし
-
-#### ToString(int)
-
-- 書式
-  - `ToString<native><public>(Val:int):[]char`
-- 引数
-  - `Val`: `int`
-- 戻り値
-  - `[]char`
-- 属性
-  - `<native>`
-  - `<public>`
-- エフェクト
-  - なし
-
-#### ToString([]char)
-
-この関数は、引数をそのまま返します。
-
-- 書式
-  - `ToString<native><public>(Val:[]char):[]char`
-- 引数
-  - `Val`: `[]char`
-- 戻り値
-  - `[]char`
-- 属性
-  - `<native>`
-  - `<public>`
-- エフェクト
-  - なし
-
-#### ToString(char)
-
-- 書式
-  - `ToString<native><public>(Val:char):[]char`
-- 引数
-  - `Val`: `char`
-- 戻り値
-  - `[]char`
-- 属性
-  - `<native>`
-  - `<public>`
-- エフェクト
-  - なし
-
-### weak_map
-
-※説明無し
-(関数名から鑑みるに、配列の要素が `t` で比較した結果が `true` のときは `v` に置き換えるもの？)
-
-- 書式
-  - `weak_map(t:comparable, v:any):[]`
-- 引数
-  - `t`: `comparable`
-  - `v`: `any`
-- 戻り値
-  - `[]`
-- 属性
-  - なし
-- エフェクト
-  - なし
+- [Int](./F_Int/main.md)
+
+- [IsAlmostEqual](./F_IsAlmostEqual/main.md)
+
+- [Join](./F_Join/main.md)
+
+- [Lerp](./F_Lerp/main.md)
+
+- [Ln](./F_Ln/main.md)
+
+- [Localize](./F_Localize/main.md)
+
+- [Log](./F_Log/main.md)
+
+- [Max](./F_Max/main.md)
+
+- [Min](./F_Min/main.md)
+
+- [Mod](./F_Mod/main.md)
+
+- [Pow](./F_Pow/main.md)
+
+- [Print](./F_Print/main.md)
+
+- [Quotient](./F_Quotient/main.md)
+
+- [Round](./F_Round/main.md)
+
+- [Sgn](./F_Sgn/main.md)
+
+- [Sin](./F_Sin/main.md)
+
+- [Sinh](./F_Sinh/main.md)
+
+- [Sqrt](./F_Sqrt/main.md)
+
+- [Tan](./F_Tan/main.md)
+
+- [Tanh](./F_Tanh/main.md)
+
+- [ToString](./F_ToString/main.md)
+
+- [event](./F_event/main.md)
+
+- [lisenable](./F_lisenable/main.md)
+
+- [operator'*='](./F_operator-singlequote--aster--equal--singlequote-/main.md)
+
+- [operator'*'](./F_operator-singlequote--aster--singlequote-/main.md)
+
+- [operator'='](./F_operator-singlequote--equal--singlequote-/main.md)
+
+- [operator'<='](./F_operator-singlequote--labr--equal--singlequote-/main.md)
+
+- [operator'<>'](./F_operator-singlequote--labr--rabr--singlequote-/main.md)
+
+- [operator'<'](./F_operator-singlequote--labr--singlequote-/main.md)
+
+- [operator'()'](./F_operator-singlequote--lpar--rpar--singlequote-/main.md)
+
+- [operator'-='](./F_operator-singlequote--minus--equal--singlequote-/main.md)
+
+- [operator'-'](./F_operator-singlequote--minus--singlequote-/main.md)
+
+- [operator'+='](./F_operator-singlequote--plus--equal--singlequote-/main.md)
+
+- [operator'+'](./F_operator-singlequote--plus--singlequote-/main.md)
+
+- [operator'?'](./F_operator-singlequote--question--singlequote-/main.md)
+
+- [operator'>='](./F_operator-singlequote--rabr--equal--singlequote-/main.md)
+
+- [operator'>'](./F_operator-singlequote--rabr--singlequote-/main.md)
+
+- [operator'/='](./F_operator-singlequote--slash--equal--singlequote-/main.md)
+
+- [operator'/'](./F_operator-singlequote--slash--singlequote-/main.md)
+
+- [prefix'-'](./F_prefix-singlequote--minus--singlequote-/main.md)
+
+- [signalable](./F_signalable/main.md)
+
+- [subscribable](./F_subscribable/main.md)
+
+- [weak_map](./F_weak_map/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

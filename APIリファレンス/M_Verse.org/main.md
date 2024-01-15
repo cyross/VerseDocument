@@ -1,27 +1,43 @@
-# [[Module]]/Verse.org/Verse
+# [[Module]]/Verse.org
 
-- [API リファレンスのトップに移動](../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Verse.org }
+
+using { / }
+
 ```
 
-## Module
+## 説明
 
-モジュールの説明が必要な方は、以下のリンクをクリックしてください。
+ (説明無し)
 
-- [Assets](./[M]Assets/main.md)
-- [Colors](./[M]Colors/main.md)
-- [Concurrency](./[M]Concurrency/main.md)
-- [Native](./[M]Native/main.md)
-- [Random](./[M]Random/main.md)
-- [Simulation](./[M]Simulation/main.md)
-- [Verse](./[M]Verse/main.md)
+## メンバー
+
+### モジュール
+
+- [Assets](./M_Assets/main.md)
+
+- [Colors](./M_Colors/main.md)
+
+- [Concurrency](./M_Concurrency/main.md)
+
+- [Native](./M_Native/main.md)
+
+- [Random](./M_Random/main.md)
+
+- [Simulation](./M_Simulation/main.md)
+
+- [Verse](./M_Verse/main.md)
 
 ---
 
-- [API リファレンスのトップに移動](../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

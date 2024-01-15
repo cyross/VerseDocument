@@ -1,39 +1,41 @@
 # [[Module]]/Fortnite.com/Devices/CreativeAnimation/InterpolationTypes
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/Devices/CreativeAnimation/InterpolationTypes }
+
+using { /Fortnite.com/Devices/CreativeAnimation }
+
 ```
 
-## Data
+## 説明
 
-### Linear
+ Convenience interpolation modes
 
-(TBD)
+These built in modes are based on the [CSS animation standard](https://www.w3.org/TR/css-easing-1/)
 
-### Ease
+## メンバー
 
-(TBD)
+### データ
 
-### EaseIn
+- [EasaeIn](./D_EasaeIn/main.md)
 
-(TBD)
+- [Ease](./D_Ease/main.md)
 
-### EaseOut
+- [EaseInOut](./D_EaseInOut/main.md)
 
-(TBD)
+- [EaseOut](./D_EaseOut/main.md)
 
-### EaseInOut
-
-(TBD)
+- [Linear](./D_Linear/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

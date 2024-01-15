@@ -1,97 +1,59 @@
 # [[Module]]/Verse.org/Colors
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Verse.org/Colors }
+
+using { /Verse.org }
+
 ```
 
-## Module
+## 説明
+
+(説明無し)
+
+## メンバー
+
+### モジュール
 
 - [NamedColors](./M_NamedColors/main.md)
 
-## Struct
+### 構造体
 
 - [color](./S_color/main.md)
 
-## Function
+### 関数
 
-### MakeColoFromHex
+- [MakeColorFromHSV](./F_MakeColorFromHSV/main.md)
 
-(TBD)
+- [MakeColorFromHex](./F_MakeColorFromHex/main.md)
 
-### MakeColorFromHSV
+- [MakeColorFromSRGB](./F_MakeColorFromSRGB/main.md)
 
-(TBD)
+- [MakeColorFromSRGBValues](./F_MakeColorFromSRGBValues/main.md)
 
-### MakeColorFromSRGB
+- [MakeColorFromTemperature](./F_MakeColorFromTemperature/main.md)
 
-(TBD)
+- [MakeHSVFromColor](./F_MakeHSVFromColor/main.md)
 
-### MakeColorFromSRGBValues
+- [MakeSRGBFromColor](./F_MakeSRGBFromColor/main.md)
 
-(TBD)
+- [operator'*'](./F_operator-singlequote--aster--singlequote-/main.md)
 
-### MakeColorFromTemperature
+- [operator'-'](./F_operator-singlequote--minus--singlequote-/main.md)
 
-(TBD)
+- [operator'+'](./F_operator-singlequote--plus--singlequote-/main.md)
 
-### MakeHSVFromColor
-
-(TBD)
-
-### MakeSRGBFromColor
-
-(TBD)
-
-### operator'-'
-
-(TBD)
-
-### operator'+'
-
-(TBD)
-
-### operator'/'
-
-#### operator'/' - color / float
-
-(TBD)
-
-#### operator'/' - color / int
-
-(TBD)
-
-### operator'\*'
-
-#### operator'\*' - color \* color
-
-(TBD)
-
-#### operator'\*' - color \* float
-
-(TBD)
-
-#### operator'\*' - color \* int
-
-(TBD)
-
-#### operator'\*' - float \* color
-
-(TBD)
-
-#### operator'\*' - int \* color
-
-(TBD)
-
-(2023/12/24 現在、公式ではこのモジュールの内容は公開されておりません)
+- [operator'/'](./F_operator-singlequote--slash--singlequote-/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

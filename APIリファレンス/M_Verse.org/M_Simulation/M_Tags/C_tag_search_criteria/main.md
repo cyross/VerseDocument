@@ -1,51 +1,37 @@
 # [[Class]]/Verse.org/Simulation/Tags/tag_search_criteria
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
+
 using { /Verse.org/Simulation/Tags }
+
 ```
 
-## Member
+## 説明
 
-- メンバーなし
+(説明無し)
 
-## Data
+## メンバー
 
-### RequireTags
+### データ
 
-- 型
-  - `[]tag`
-- 説明
-  - オブジェクトに必要なタグコレクション
+- [ExclusionTags](./D_ExclusionTags/main.md)
 
-### PreferredTags
+- [PreferredTags](./D_PreferredTags/main.md)
 
-- 型
-  - `[]tag`
-- 説明
-  - [TBD] Tags that are used if no required tags are specified. These are treated as if any of them will do.
+- [RequireTags](./D_RequireTags/main.md)
 
-### ExclusionTags
-
-- 型
-  - `[]tag`
-- 説明
-  - オブジェクトに含めてはいけないタグコレクション。すべてのアイテムは、これらのタグを除外して検索する。
-
-### SortType
-
-- 型
-  - `tag_search_sort_type`
-- 説明
-  - タグが要求されたときに、ソートして返すかを指定するためのフラグ
+- [SortType](./D_SortType/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

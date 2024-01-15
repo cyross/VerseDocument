@@ -1,53 +1,53 @@
 # [[Module]]/Fortnite.com/Devices/CreativeAnimation
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/Devices/CreativeAnimation }
+
+using { /Fortnite.com/Devices }
+
 ```
 
-## Modules
+## 説明
+
+ (説明なし)
+
+## メンバー
+
+### モジュール
 
 - [InterpolationTypes](./M_InterpolationTypes/main.md)
 
-## Class
+### クラス
 
 - [animation_controller](./C_animation_controller/main.md)
 
-## Struct
+### 構造体
+
+- [cubic_bezier_parameters](./S_cubic_bezier_parameters/main.md)
 
 - [keyframe_delta](./S_keyframe_delta/main.md)
 
-## Enumeration
+### 列挙体
 
-### animation_controller_state
+- [animation_controller_state](./EN_animation_controller_state/main.md)
 
-(TBD)
+- [animation_mode](./EN_animation_mode/main.md)
 
-### animation_mode
+- [await_next_keyframe_result](./EN_await_next_keyframe_result/main.md)
 
-(TBD)
+### エクステンション
 
-### await_next_keyframe_result
-
-(TBD)
-
-## Extension
-
-### (Prop:creative_prop).GetAnimationController
-
-(TBD)
-
-### (CreativeObject:creative_object_interface).GetTags
-
-(TBD)
+- [(Prop:creative_prop).GetAnimationController](./EX_-lpar-Prop-colon-creative_prop-rpar-.GetAnimationController/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

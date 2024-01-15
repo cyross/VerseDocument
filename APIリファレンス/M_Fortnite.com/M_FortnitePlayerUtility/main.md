@@ -1,35 +1,37 @@
 # [[Module]]/Fortnite.com/FortnitePlayerUtility
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/FortnitePlayerUtility }
+
+using { /Fortnite.com }
+
 ```
 
-## Extension
+## 説明
 
-### (InPlayer:player).GetPlayersSpectating
+(説明無し)
 
-(TBD)
+## メンバー
 
-### (InPlayer:player).IsSpectator
+### エクステンション
 
-(TBD)
+- [(InAgent:agent).Respawn](./EX_-lpar-InAgent-colon-agent-rpar-.Respawn/main.md)
 
-### (InAgent:agent).Respawn
+- [(InPlayer:player).GetPlayersSpectating](./EX_-lpar-InPlayer-colon-player-rpar-.GetPlayersSpectating/main.md)
 
-(TBD)
+- [(InPlayer:player).IsSpectator](./EX_-lpar-InPlayer-colon-player-rpar-.IsSpectator/main.md)
 
-### (InAgent:agent).SendToLobby
-
-(TBD)
+- [(InPlayer:player).SendToLobby](./EX_-lpar-InPlayer-colon-player-rpar-.SendToLobby/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

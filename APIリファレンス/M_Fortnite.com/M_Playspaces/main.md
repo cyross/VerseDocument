@@ -1,39 +1,31 @@
-# [[Module]]/Fortnite.com/PlaySpaces
+# [[Module]]/Fortnite.com/Playspaces
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/Playspaces }
+
+using { /Fortnite.com }
+
 ```
 
-### Interface
+## 説明
+
+(説明無し)
+
+## メンバー
+
+### インターフェース
 
 - [fort_playspace](./I_fort_playspace/main.md)
 
-### Function
-
-#### GetPlayers
-
-(TBD)
-
-#### GetTeamCollection
-
-(TBD)
-
-#### PlayerAddedEvent
-
-(TBD)
-
-#### PlayerRemovedEvent
-
-(TBD)
-
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

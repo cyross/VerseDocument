@@ -1,81 +1,35 @@
 # [[Interface]]/Verse.org/Simulation/Tags/tag_view
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
-
-## 概要
-
-問い合わせ可能なタグコレクション群を定義するときに使用するインタフェース
 
 ## インポート方法
 
 ```verse
+
 using { /Verse.org/Simulation/Tags }
+
 ```
 
-## Member
+## 説明
 
-- メンバーなし
+ 問い合わせ可能なタグコレクション群を定義するときに使用するインタフェース
 
-## Function
+## メンバー
 
-### Has
+### 関数
 
-タグのコレクション内に引数で示したタグが含まれていれば `true` 、そうでなければ `false` を返す
+- [Has](./F_Has/main.md)
 
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `TagToCheck`: `tag`
-- 戻り値
-  - `logic`
-- アクセス指定子
-  - `<public>`
-- 排他的エフェクト指定子
-  - `<transacts>`
-  - `<varies>`
-- 加法的エフェクト指定子
-  - `<decides>`
+- [HasAll](./F_HasAll/main.md)
 
-### HasAny
-
-タグのコレクション内に引数で示したタグコレクションのどれかが含まれていれば `true` 、そうでなければ `false` を返す
-
-- 書式
-  - `HasAny<public>(InTags:[]tag)<decides><varies><transacts>:logic`
-- 引数
-  - `InTags`: `[]tag`
-- 戻り値
-  - `logic`
-- アクセス指定子
-  - `<public>`
-- 排他的エフェクト指定子
-  - `<transacts>`
-  - `<varies>`
-- 加法的エフェクト指定子
-  - `<decides>`
-
-### HasAll
-
-タグのコレクション内に引数で示したタグコレクションのすべてが含まれていれば `true` 、そうでなければ `false` を返す
-
-- 書式
-  - `Has<public>(TagToCheck:tag)<decides><varies><transacts>:logic`
-- 引数
-  - `InTags`: `[]tag`
-- 戻り値
-  - `logic`
-- アクセス指定子
-  - `<public>`
-- 排他的エフェクト指定子
-  - `<transacts>`
-  - `<varies>`
-- 加法的エフェクト指定子
-  - `<decides>`
+- [HasMany](./F_HasMany/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

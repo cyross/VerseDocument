@@ -1,0 +1,41 @@
+# [[Class]]/Fortnite.com/Devices/gameplay_controls_device
+
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
+
+---
+
+## インポート方法
+
+```verse
+
+using { /Fortnite.com/Devices }
+
+```
+
+## 説明
+
+(説明無し)
+
+## メンバー
+
+### 関数
+
+- [AddTo](./F_AddTo/main.md)
+
+- [AddToAll](./F_AddToAll/main.md)
+
+- [Disable](./F_Disable/main.md)
+
+- [Enable](./F_Enable/main.md)
+
+- [RemoveFrom](./F_RemoveFrom/main.md)
+
+- [RemoveFromAll](./F_RemoveFromAll/main.md)
+
+---
+
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

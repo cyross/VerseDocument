@@ -1,43 +1,55 @@
 # [[Module]]/Fortnite.com/AI
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/AI }
+
+using { /Fortnite.com }
+
 ```
 
-## Interface
+## 説明
 
-- [focus_interface](./I_focus_interface/main.md)
-- [fort_leashable](./I_fort_leashable/main.md)
-- [navigatable](./I_navigatable/main.md)
+(説明無し)
 
-## Class
+## メンバー
+
+### クラス
 
 - [navigation_target](./C_navigation_target/main.md)
 
-## Extension
+### インターフェース
 
-### (InCharacter:fort_character).GetFocusInterface
+- [focus_interface](./I_focus_interface/main.md)
 
-### (InCharacter:fort_character).GetFortLeashableInterface
+- [fort_leashable](./I_fort_leashable/main.md)
 
-## Enumeration
+- [navigatable](./I_navigatable/main.md)
 
-### navigate_result
+### 列挙体
 
-## Function
+- [navigate_result](./EN_navigate_result/main.md)
 
-### [[Function]]MakeNavigationTarget(vector3)
+### エクステンション
 
-### [[Function]]MakeNavigationTarget(agent)
+- [(InCharacter:fort_character).GetFocusInterface](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetFocusInterface/main.md)
+
+- [(InCharacter:fort_character).GetFortLeashable](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetFortLeashable/main.md)
+
+- [(InCharacter:fort_character).GetNavigatable](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetNavigatable/main.md)
+
+### 関数
+
+- [MakeNavigationTarget](./F_MakeNavigationTarget/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

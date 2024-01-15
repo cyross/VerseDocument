@@ -1,21 +1,29 @@
 # [[Class]]/Verse.org/Simulation/Tags/tag
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
+
 using { /Verse.org/Simulation/Tags }
+
 ```
 
-## Member
+## 説明
 
-- メンバーなし
+(説明無し)
+
+## メンバー
+
+(メンバーなし)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)

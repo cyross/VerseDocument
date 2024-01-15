@@ -1,27 +1,35 @@
 # [[Module]]/Fortnite.com/Teams
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-using { /Fortnite.com/Teams }
+
+using { /Fortnite.com }
+
 ```
 
-## Interface
+## 説明
 
-- [fort_team_collections](./I_fort_team_collection/main.md)
+(説明無し)
 
-## Enumeration
+## メンバー
 
-### team_attitude
+### インターフェース
 
-(TBD)
+- [fort_team_collection](./I_fort_team_collection/main.md)
+
+### 列挙体
+
+- [team_attribute](./EN_team_attribute/main.md)
 
 ---
 
-- [一つ上位のモジュールへ移動](../main.md)
-- [API リファレンスのトップに移動](../../main.md)
+- [一つ上位へ移動](../main.md)
+
+- [API リファレンスのトップに移動](/main.md)
