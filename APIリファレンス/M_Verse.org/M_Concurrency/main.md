@@ -10,7 +10,7 @@
 
 ```verse
 
-using { /Verse.org }
+using { /Verse.org/Concurrency }
 
 ```
 

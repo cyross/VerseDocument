@@ -10,7 +10,7 @@
 
 ```verse
 
-using { / }
+using { /Verse.org }
 
 ```
 

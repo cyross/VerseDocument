@@ -10,7 +10,7 @@
 
 ```verse
 
-using { /Verse.org/Colors }
+using { /Verse.org/Colors/NamedColors }
 
 ```
 

@@ -10,7 +10,7 @@
 
 ```verse
 
-using { /Fortnite.com }
+using { /Fortnite.com/Playspaces }
 
 ```
 

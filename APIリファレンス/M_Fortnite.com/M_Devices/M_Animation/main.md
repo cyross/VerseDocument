@@ -10,7 +10,7 @@
 
 ```verse
 
-using { /Fortnite.com/Devices }
+using { /Fortnite.com/Devices/Animation }
 
 ```
 

@@ -10,7 +10,7 @@
 
 ```verse
 
-using { /Fortnite.com/Devices/CreativeAnimation }
+using { /Fortnite.com/Devices/CreativeAnimation/InterpolationTypes }
 
 ```
 

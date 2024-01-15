@@ -192,7 +192,7 @@ private
 
   def get_parent_modules
     modules = []
-    parent = @parent
+    parent = self
 
     while parent != nil
       if module?(parent.type)
