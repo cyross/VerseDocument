@@ -1,17 +1,14 @@
 # [[Class]]/Fortnite.com/Devices/ball_spawner_device
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices }
-
 ```
 
 ## 説明
@@ -29,11 +26,9 @@ Used to spawn various types of balls. Can be used to control HUD elements relate
 ### 関数
 
 - [HideHUD](./F_HideHUD/main.md)
-
 - [ShowHUD](./F_ShowHUD/main.md)
 
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

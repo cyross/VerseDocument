@@ -1,17 +1,14 @@
 # [[Class]]/Fortnite.com/Devices/Patchwork/lfo_modulator_device
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices/Patchwork }
-
 ```
 
 ## 説明
@@ -33,5 +30,4 @@ using { /Fortnite.com/Devices/Patchwork }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

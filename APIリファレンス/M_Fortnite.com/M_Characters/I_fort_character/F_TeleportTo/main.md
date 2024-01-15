@@ -1,17 +1,14 @@
 # [[Function]]/Fortnite.com/Characters/fort_character/TeleportTo
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Characters }
-
 ```
 
 ## 説明
@@ -20,30 +17,27 @@ using { /Fortnite.com/Characters }
 
 ### 書式
 
-```Verse
-
+```verse
+TeleportTo():(返却値の型)
 ```
 
-### パラメーター
+### 引数
+
+なし
 
 - (名前)
-
   - 型
-
-    - (型)
-
+    - `(型)`
   - 内容
-
     - (内容)
 
 ### 返却値
 
 - 型
-
-  - (型)
+  - `void`
+  - `(型)`
 
 - 内容
-
   - (内容)
 
 ## メンバー
@@ -53,5 +47,4 @@ using { /Fortnite.com/Characters }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

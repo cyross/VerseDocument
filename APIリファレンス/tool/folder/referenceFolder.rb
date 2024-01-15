@@ -35,11 +35,15 @@ class VerseAPIReferenceFolder
     "-doublequote-" => "\"",
   }
 
-  def self.analyze_folder(folder_name)
-    pair = folder_name.split('_', 2)
-    name = ESCAPE_TO_SYMBOL.keys.reduce(pair[1]) {| result, item |
+  def self.format_name(name)
+    ESCAPE_TO_SYMBOL.keys.reduce(name) {| result, item |
       result.gsub(item, ESCAPE_TO_SYMBOL[item])
     }
+  end
+
+  def self.analyze_folder(folder_name)
+    pair = folder_name.split('_', 2)
+    name = self.format_name(pair[1])
 
     return AnalizeResult.new(pair[0], name)
   end
@@ -96,7 +100,9 @@ class VerseAPIReferenceFolder
 
     puts "Generate #{main_file_path}..."
 
-    link = [MarkdownMainMd::TO_UPPER_LINK_LINE, MarkdownMainMd::TO_TOP_LINK_LINE].join("\n")
+    to_top_link = MarkdownMainMd::TO_TOP_LINK_LINE.gsub("%%_DIRS_%%", Array.new(self.depth, "..").join("/"))
+
+    link = [MarkdownMainMd::TO_UPPER_LINK_LINE, to_top_link].join("\n")
 
     import_directory = "/" + get_parent_modules.join("/")
     import_line = MarkdownMainMd::IMPORT_LINES.gsub("%%_PATH_%%", import_directory)
@@ -147,6 +153,12 @@ class VerseAPIReferenceFolder
     template = template.gsub(/\n{2,}/, "\n")
     template = template.gsub(/\n{1}/, "\n\n")
     template = template.gsub(/\n{2,}$/, "\n")
+    template = template.gsub(/\)\n{2,}([^#])/, ")\n\\1")
+    template = template.gsub(/\)\n(-{2,})/, ")\n\n\\1")
+    template = template.gsub(/([^\)])\n{2,}(\s{2,})-/, "\\1\n\\2-")
+    template = template.gsub(/\`\`\`verse\n{2,}/, "```verse\n")
+    template = template.gsub(/\`\`\`Verse\n{2,}/, "```verse\n")
+    template = template.gsub(/\n{2,}\`\`\`\n/, "\n```\n")
 
     File.open(main_file_path, "w"){|f|
       f.write(template)

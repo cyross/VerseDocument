@@ -1,17 +1,14 @@
 # [[Data]]/Fortnite.com/Devices/capture_area_device/LastAgentExitsEvent
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices }
-
 ```
 
 ## 説明
@@ -19,7 +16,6 @@ using { /Fortnite.com/Devices }
 Signaled when the last agent exits this device area. Sends the agent that exited this device area
 
 - 型
-
   - `listenable(payload)`
 
 ## メンバー
@@ -29,5 +25,4 @@ Signaled when the last agent exits this device area. Sends the agent that exited
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

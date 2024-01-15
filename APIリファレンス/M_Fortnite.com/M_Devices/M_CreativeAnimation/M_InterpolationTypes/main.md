@@ -1,17 +1,14 @@
 # [[Module]]/Fortnite.com/Devices/CreativeAnimation/InterpolationTypes
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices/CreativeAnimation/InterpolationTypes }
-
 ```
 
 ## 説明
@@ -25,17 +22,12 @@ These built in modes are based on the [CSS animation standard](https://www.w3.or
 ### データ
 
 - [EasaeIn](./D_EasaeIn/main.md)
-
 - [Ease](./D_Ease/main.md)
-
 - [EaseInOut](./D_EaseInOut/main.md)
-
 - [EaseOut](./D_EaseOut/main.md)
-
 - [Linear](./D_Linear/main.md)
 
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

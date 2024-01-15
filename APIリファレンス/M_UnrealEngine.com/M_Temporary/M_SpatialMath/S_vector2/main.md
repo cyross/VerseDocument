@@ -1,17 +1,14 @@
 # [[Structure]]/UnrealEngine.com/Temporary/SpatialMath/vector2
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /UnrealEngine.com/Temporary/SpatialMath }
-
 ```
 
 ## 説明
@@ -25,5 +22,4 @@ using { /UnrealEngine.com/Temporary/SpatialMath }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

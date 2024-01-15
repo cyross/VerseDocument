@@ -1,17 +1,14 @@
 # [[Class]]/Fortnite.com/UI/creative_hud_identifier_player_count
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/UI }
-
 ```
 
 ## 説明
@@ -33,5 +30,4 @@ using { /Fortnite.com/UI }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

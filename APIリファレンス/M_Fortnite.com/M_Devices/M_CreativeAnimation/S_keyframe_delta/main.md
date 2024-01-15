@@ -1,17 +1,14 @@
 # [[Structure]]/Fortnite.com/Devices/CreativeAnimation/keyframe_delta
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices/CreativeAnimation }
-
 ```
 
 ## 説明
@@ -29,17 +26,12 @@ Each delta is interpreted as a world-space transformation to be concatenated ont
 ### データ
 
 - [DeltaLocation](./D_DeltaLocation/main.md)
-
 - [DeltaRotation](./D_DeltaRotation/main.md)
-
 - [DeltaScale](./D_DeltaScale/main.md)
-
 - [Interpolation](./D_Interpolation/main.md)
-
 - [Time](./D_Time/main.md)
 
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

@@ -1,17 +1,14 @@
 # [[Class]]/Fortnite.com/Devices/basic_storm_controller_device
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices }
-
 ```
 
 ## 説明
@@ -35,5 +32,4 @@ A simplified storm device that provides a way to create a single-phase storm and
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

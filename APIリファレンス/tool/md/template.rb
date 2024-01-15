@@ -1,6 +1,6 @@
 class MarkdownTemplate
   TO_UPPER_LINK_LINE = "- [一つ上位へ移動](../main.md)"
-  TO_TOP_LINK_LINE = "- [API リファレンスのトップに移動](/main.md)"
+  TO_TOP_LINK_LINE = "- [API リファレンスのトップに移動](%%_DIRS_%%/main.md)"
   TEMPLATE_LINES = <<'EOS'
 # [[%%_FILETYPE_%%]]%%_FULLNAME_%%
 

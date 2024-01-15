@@ -1,17 +1,14 @@
 # [[Structure]]/Fortnite.com/Game/healing_args
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Game }
-
 ```
 
 ## 説明
@@ -23,13 +20,10 @@ using { /Fortnite.com/Game }
 ### データ
 
 - [Amount](./D_Amount/main.md)
-
 - [Instigator](./D_Instigator/main.md)
-
 - [Source](./D_Source/main.md)
 
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

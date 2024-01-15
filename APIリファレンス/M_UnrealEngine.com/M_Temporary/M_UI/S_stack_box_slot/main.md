@@ -1,17 +1,14 @@
 # [[Structure]]/UnrealEngine.com/Temporary/UI/stack_box_slot
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /UnrealEngine.com/Temporary/UI }
-
 ```
 
 ## 説明
@@ -23,17 +20,12 @@ using { /UnrealEngine.com/Temporary/UI }
 ### データ
 
 - [Distribution](./D_Distribution/main.md)
-
 - [HorizontalAlignment](./D_HorizontalAlignment/main.md)
-
 - [Padding](./D_Padding/main.md)
-
 - [VerticalAlignment](./D_VerticalAlignment/main.md)
-
 - [Widget](./D_Widget/main.md)
 
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)

@@ -47,9 +47,13 @@ def main
             when VerseEnumeration::FOLDER_PREFIX then
               f.write(MarkdownDescMd::ENUMERATION_TEMPLATE_LINES)
             when VerseExtension::FOLDER_PREFIX then
-              f.write(MarkdownDescMd::EXTENSION_TEMPLATE_LINES)
+              name = VerseAPIReferenceFolder.format_name(types[1])
+              desc = MarkdownDescMd::EXTENSION_TEMPLATE_LINES.gsub("%%_NAME_%%", name)
+              f.write(desc)
             when VerseFunction::FOLDER_PREFIX then
-              f.write(MarkdownDescMd::FUNCTION_TEMPLATE_LINES)
+              name = VerseAPIReferenceFolder.format_name(types[1])
+              desc = MarkdownDescMd::FUNCTION_TEMPLATE_LINES.gsub("%%_NAME_%%", name)
+              f.write(desc)
             when VerseData::FOLDER_PREFIX then
               f.write(MarkdownDescMd::DATA_TEMPLATE_LINES)
             end

@@ -1,17 +1,14 @@
 # [[Module]]/Verse.org/Simulation/Tags
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Verse.org/Simulation/Tags }
-
 ```
 
 ## 説明
@@ -23,7 +20,6 @@ using { /Verse.org/Simulation/Tags }
 ### クラス
 
 - [tag](./C_tag/main.md)
-
 - [tag_search_criteria](./C_tag_search_criteria/main.md)
 
 ### インターフェース
@@ -37,5 +33,4 @@ using { /Verse.org/Simulation/Tags }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

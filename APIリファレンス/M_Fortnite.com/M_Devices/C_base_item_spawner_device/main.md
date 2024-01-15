@@ -1,17 +1,14 @@
 # [[Class]]/Fortnite.com/Devices/base_item_spawner_device
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices }
-
 ```
 
 ## 説明
@@ -29,7 +26,6 @@ Base class for devices that spawn items
 ### 関数
 
 - [Disable](./F_Disable/main.md)
-
 - [Enable](./F_Enable/main.md)
 
 ### データ
@@ -39,5 +35,4 @@ Base class for devices that spawn items
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../main.md)

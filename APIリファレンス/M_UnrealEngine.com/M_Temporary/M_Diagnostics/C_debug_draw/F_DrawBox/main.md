@@ -1,17 +1,14 @@
 # [[Function]]/UnrealEngine.com/Temporary/Diagnostics/debug_draw/DrawBox
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /UnrealEngine.com/Temporary/Diagnostics }
-
 ```
 
 ## 説明
@@ -20,30 +17,27 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 
 ### 書式
 
-```Verse
-
+```verse
+DrawBox():(返却値の型)
 ```
 
-### パラメーター
+### 引数
+
+なし
 
 - (名前)
-
   - 型
-
-    - (型)
-
+    - `(型)`
   - 内容
-
     - (内容)
 
 ### 返却値
 
 - 型
-
-  - (型)
+  - `void`
+  - `(型)`
 
 - 内容
-
   - (内容)
 
 ## メンバー
@@ -53,5 +47,4 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../../main.md)

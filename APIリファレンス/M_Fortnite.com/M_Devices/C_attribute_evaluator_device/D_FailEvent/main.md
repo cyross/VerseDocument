@@ -1,17 +1,14 @@
 # [[Data]]/Fortnite.com/Devices/attribute_evaluator_device/FailEvent
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
 
 ---
 
 ## インポート方法
 
 ```verse
-
 using { /Fortnite.com/Devices }
-
 ```
 
 ## 説明
@@ -29,5 +26,4 @@ Signaled when the agent from `EvaluateAgent` fails the requirements specified by
 ---
 
 - [一つ上位へ移動](../main.md)
-
-- [API リファレンスのトップに移動](/main.md)
+- [API リファレンスのトップに移動](../../../../main.md)
