@@ -20,6 +20,8 @@ using { /Fortnite.com }
 ### モジュール
 
 - [AI](./M_AI/main.md)
+- [Anim](./M_Anim/main.md)
+- [Animation](./M_Animation/main.md)
 - [Assets](./M_Assets/main.md)
 - [Characters](./M_Characters/main.md)
 - [Devices](./M_Devices/main.md)

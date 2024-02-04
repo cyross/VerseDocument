@@ -20,6 +20,7 @@ using { /Fortnite.com/AI }
 ### クラス
 
 - [navigation_target](./C_navigation_target/main.md)
+- [npc_behavior](./C_npc_behavior/main.md)
 
 ### インターフェース
 
@@ -33,6 +34,7 @@ using { /Fortnite.com/AI }
 
 ### エクステンション
 
+- [(InAgent:agent).GetNPCBehavior](./EX_-lpar-InAgent-colon-agent-rpar-.GetNPCBehavior/main.md)
 - [(InCharacter:fort_character).GetFocusInterface](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetFocusInterface/main.md)
 - [(InCharacter:fort_character).GetFortLeashable](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetFortLeashable/main.md)
 - [(InCharacter:fort_character).GetNavigatable](./EX_-lpar-InCharacter-colon-fort_character-rpar-.GetNavigatable/main.md)

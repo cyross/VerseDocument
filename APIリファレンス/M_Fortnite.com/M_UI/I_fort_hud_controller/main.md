@@ -17,11 +17,15 @@ using { /Fortnite.com/UI }
 
 ### 実装インタフェース
 
-- `(インタフェース名)`
+- [`インタフェース名`]()
 
 ## メンバー
 
-(メンバーなし)
+### 関数
+
+- [HideElements](./F_HideElements/main.md)
+- [ResetElementVisibility](./F_ResetElementVisibility/main.md)
+- [ShowElements](./F_ShowElements/main.md)
 
 ---
 

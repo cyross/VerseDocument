@@ -26,9 +26,9 @@ def main
     if not File.file?(path)
       desc_file_path = File.expand_path(MarkdownDescMd::FILENAME, path)
 
-      puts "Generate [#{desc_file_path}]..."
-
       if is_target_of_write(desc_file_path)
+        puts "Generate [#{desc_file_path}]..."
+
         pathes = path.split("/")
         types = pathes[-1].split("_", 2)
         if not FOLDER_PREFIXES.include?(types[0])

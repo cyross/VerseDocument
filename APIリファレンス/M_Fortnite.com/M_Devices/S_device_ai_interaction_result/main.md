@@ -13,7 +13,7 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
-(説明無し)
+`device_event_ai_interaction` のペイロードとして使われる(詳細不明)
 
 ## メンバー
 
