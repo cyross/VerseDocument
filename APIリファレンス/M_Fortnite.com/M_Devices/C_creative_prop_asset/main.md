@@ -13,7 +13,11 @@ using { /Fortnite.com/Devices }
 
 ## 説明
 
-Asset used to spawn creative_prop instances
+アセットとして存在するプロップ
+
+- `creative_prop` クラスのサブクラス
+
+- コンテンツブラウザに表示されるアセットが使用可能
 
 ## メンバー
 

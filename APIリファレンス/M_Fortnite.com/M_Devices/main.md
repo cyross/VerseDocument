@@ -212,6 +212,10 @@ using { /Fortnite.com/Devices }
 - [GetCreativeObjectsWithTags](./F_GetCreativeObjectsWithTags/main.md)
 - [SpawnProp](./F_SpawnProp/main.md)
 
+### データ
+
+- [DefaultCreativePropAsset](./D_DefaultCreativePropAsset/main.md)
+
 ---
 
 - [一つ上位へ移動](../main.md)

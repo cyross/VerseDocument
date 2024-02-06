@@ -1,1 +1,5 @@
-# Internal asset for representing creative devices
+# アセットとして存在する仕掛け(内部で使用)
+
+- `creative_device` クラスのサブクラス
+- コンテンツブラウザに表示される仕掛けが使用可能
+- ただし、UEFNからは使用できない
